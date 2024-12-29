@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM part 1</title>
+</head>
+
+<style>
+    body{
+        background-color: black;
+        color: aliceblue;
+    }
+</style>
+<body>
+
+    <!--Id-->
+
+    <!--  <p id="one">hello<span> Namaste</span></p> -->
+
+
+<!-- class -->
+    <!-- <ul>
+        <li class="tech">One</li>
+        
+        <li class="tech"><span>Two</span></li>
+        <li class="tech">Three</li>
+    </ul> -->
+
+
+    <!-- tagName-->
+
+    <!-- <h4>Hey</h4>
+    <h4><span>Namaste</span></h4>
+    <h4>Soham</h4> -->
+
+    <!-- Query selector-->
+     
+    <!-- <h2 class="classs">Hello</h2>
+    <h2 class="classs">Hola</h2>
+    <h2 id="ids">Hey</h2> -->
+
+
+
+    <script>
+
+        // Id
+
+        let var1 = document.getElementById("one");
+        console.log(var1.innerHTML);
+       console.log(var1.innerText);
+
+        // class
+
+        let var2=document.getElementsByClassName("tech");
+        console.log(var2[2].innerText);
+        console.log(var2[1].innerHTML);
+        // console.log(var2[1].innerText);
+        // var2[2].innerText="Node js";  // changing the inner text of the li
+        // console.log(var2[2].innerText);
+
+        // tagName
+
+        let var3=document.getElementsByTagName("h4");
+        // console.log(var3[1].innerHTML);
+        // var3[2].innerText="hello"; // changing the inner text
+        // var3[2].style.color="red"; // changing the style of the h4
+        // console.log(var3[2].innerText);
+        // console.log(var3[2].innerHTML);
+
+        // Query selector
+
+        
+
+        
+        let var4=document.querySelector(".class");
+        // console.log(var4);
+
+        // var4.className="hello";
+        // var4.classList="hello helo hola";
+        // var4.setAttribute("title", "soham");
+    </script>
+    
+</body>
+</html>
