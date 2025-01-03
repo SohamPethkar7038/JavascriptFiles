@@ -12,13 +12,12 @@ const user={
     }
 }
 
-//user.welcomeMessage(); // calling the function welcomeMessage
-user.username="sam";    // changing the username in the user
-//user.welcomeMessage();   // the username changed when it call again
+//user.welcomeMessage();      // calling the function welcomeMessage
+user.username="sam";         // changing the username in the user
+//user.welcomeMessage();    // the username changed when it call again
 
 
-//console.log(this)  // The `this` keyword gives empty parenthesis but consoling in the 
-                   //  browser it gives window as output
+//console.log(this)  // The `this` keyword gives empty parenthesis but consoling in the  browser it gives window as output
 
 
 
@@ -90,6 +89,7 @@ const add=(x,y)=>{
 //console.log(add(2,3));
 
 // 2. when we give paranthesis() no need of writing return keyword
+
 const add1=(p,q)=>(p+q)
 //console.log(add1(10,20));
 
