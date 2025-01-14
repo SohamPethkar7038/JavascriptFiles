@@ -1,6 +1,6 @@
 // array can be initialize by following syntax 
 //
-// It an hold the element of any data type including int ,
+// It can hold the element of any data type including int ,
 // string ,float,boolean,objects,and even other array //
 
 

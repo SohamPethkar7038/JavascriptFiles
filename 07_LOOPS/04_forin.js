@@ -9,13 +9,13 @@ const myObject={
 
 //for iterating the objects in js we use forIn loop but in the above we only print the keys of the object not the complete key-value pairs
 for(const item in myObject){
-//    console.log(item);
+    console.log(item);
 }
 
 
 // for printing the key-value pairs in the objects we use the following syntax where in the console we use back tricks and in that use the dollar outside the curly braces that show the current variable in the iterations
 for(const item in myObject){
-//    console.log(`${item} : ${myObject[item]}`);
+   console.log(`${item} : ${myObject[item]}`);
     
 }
 

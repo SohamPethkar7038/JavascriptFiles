@@ -31,7 +31,7 @@ map.set('IN', "India")
 
 
 for(const key of map){
-//  console.log(key);  // we get print in the array format     
+// console.log(key);  // we get print in the array format     
 }
 
 
